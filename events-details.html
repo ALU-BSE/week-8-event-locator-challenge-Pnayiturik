@@ -21,12 +21,20 @@
     </div>
 
     <script src="js/events.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const eventId = urlParams.get("id");
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const eventId = urlParams.get("id");
+
+        console.log("Event ID from URL:", eventId); // Debugging line
+
+        if (eventId) {
             displayEventDetails(eventId);
-        });
-    </script>
+        } else {
+            document.body.innerHTML = "<h2 class='text-center'>Event not found!</h2>";
+        }
+    });
+</script>
+
 </body>
 </html>

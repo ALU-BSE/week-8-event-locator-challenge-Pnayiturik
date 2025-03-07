@@ -27,7 +27,7 @@ function displayEvents(query, date, category) {
                 <h5>${event.name}</h5>
                 <p>${event.date}</p>
                 <p>${event.category}</p>
-                <a href="event-details.html?id=${event.id}" class="btn btn-primary">View Details</a>
+                <a href="events-details.html?id=${event.id}" class="btn btn-primary">View Details</a>
             </div>
         `;
         eventsContainer.appendChild(eventCard);
