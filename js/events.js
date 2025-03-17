@@ -2,6 +2,13 @@ const events = [
     { id: 1, name: "Rock Concert", date: "2025-03-20", category: "music", description: "A live rock concert featuring top bands." },
     { id: 2, name: "Tech Expo", date: "2025-04-05", category: "technology", description: "Latest innovations in tech industry." },
     { id: 3, name: "Art Exhibition", date: "2025-03-28", category: "art", description: "Showcasing amazing art pieces." },
+    { id: 4, name: "Marathon Championship", date: "2025-05-10", category: "sports", description: "A city-wide marathon for professional and amateur runners." },
+    { id: 5, name: "Food Festival", date: "2025-04-15", category: "food", description: "Enjoy delicious food from different cultures." },
+    { id: 6, name: "Business Summit", date: "2025-06-08", category: "business", description: "A networking event for entrepreneurs and investors." },
+    { id: 7, name: "Basketball Finals", date: "2025-07-02", category: "sports", description: "Watch the top teams compete for the championship." },
+    { id: 8, name: "Fashion Week", date: "2025-09-14", category: "fashion", description: "A showcase of the latest fashion trends from top designers." },
+    { id: 9, name: "Science Fair", date: "2025-08-20", category: "education", description: "Innovative projects and experiments from young scientists." },
+    { id: 10, name: "Film Festival", date: "2025-10-10", category: "entertainment", description: "Screenings of independent and blockbuster movies." }
 ];
 
 function displayEvents(query, date, category) {
